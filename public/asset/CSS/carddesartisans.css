@@ -1,0 +1,94 @@
+*{margin:0 ;
+padding: 0;
+
+}
+
+.card{
+   border: 1px solid #444;
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 3px 3px 6px black;
+}
+.heads{
+    height: 100px;
+    background-color: rgb(7, 7, 225);
+    position: relative;
+   
+   
+}
+.bodys{
+    height: 200px;
+    padding-top: 30px;
+   
+}
+img{
+    border: 2px solid blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    z-index: 11111; 
+  object-fit: cover;
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.appel i{
+    font-size: 50px;
+    margin: 0px 30px;
+}
+.appel .fa-phone{
+    color: black;
+}
+.appel .fa-whatsapp{
+    color: green;
+}
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .artisan-list {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 5px;
+  }
+  
+  p {
+    margin: 0;
+  }
+
+  
+
+
+
+
+  
+  

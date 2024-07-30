@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="asset/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/CSS/styleprofilcombine_.css">
+    <title>Document</title>
+</head>
+<body>
+  <!--DEBUT NAV-->
+  <div id="nav">
+    
+    <nav class="container">
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Acceuil.html"><u>Retour à l'acceuil </u> </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-regular fa-bell"></i></a>
+            </li>
+            <img src="asset/image/d.jpg" alt="" class="user-img" onclick="toggleMenu()">
+
+            <div class="menu-wrap" id="subMenu">
+                <div class="sub-menu ">
+                    <div class="user-2">
+                        <img src="asset/image/d.jpg" class="user-imgs" alt="">
+                        <h3>Timite Adja</h3>
+                    </div>
+                    <hr>
+                    <a href="POFIL.html" class="user-icone">
+                        <i class="fa-solid fa-user"></i>
+                        <p>Mon profil</p>
+                        <span>></span>
+                    </a>
+                    <a href="" class="user-icone">
+                        <i class="fas fa-user-edit"></i>
+                        <p>Modifier mon profil</p>
+                        <span>></span>
+                    </a>
+                    </a>
+                    <a href="#" class="user-icone">
+                        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+                        <p>Se deconnecter</p>
+                        <span>></span>
+                    </a>
+                </div>
+            </div>
+        </ul>
+    </nav>
+</div>
+<!--FIN NAV-->
+
+<nav class="user">
+<ul class="nav justify-content-center ">
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="POFIL.html">Tableau de bord</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="publication.html">publication d'article</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="listedarticle.html">Liste d'article</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " href="" >Mon abonnement</a>
+    </li>
+  </ul>
+</nav>
+ 
+
+
+<div class="container mt-3">
+    <h1>Publication d'article</h1>
+    <form action="#"  enctype="multipart/form-data">
+        <div class="form-group">
+            <label class="form-label" for="title">Titre de l'article:</label>
+            <input class="form-control" type="text" id="title" name="title" required>
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="content">Presentation de l'article:</label>
+            <textarea class="form-control" id="content" name="content"  required></textarea>
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="photos">Photos de l'article (obligatoire, sélectionnez plusieurs):</label>
+            <input class="form-control" type="file" id="photos" name="photos[]" accept="image/*" multiple required>
+        </div>
+        <div class="form-group">
+            <label class="form-label" for="video">Vidéo de l'article (optionnelle):</label>
+            <input class="form-control" type="file" id="video" name="video" accept="video/*">
+        </div>
+       
+        <div class="form-group mt-3">
+            <button class="form-control btn btn-outline-success" type="submit">Publier</button>
+        </div>
+    </form>
+</div>
+
+
+
+
+<script src="asset/js/navbar.js"></script>
+<script src="asset/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

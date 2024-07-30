@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+/*NAVBAR*/
+
+#nav {
+    background-color: #ff9900;
+    height: 50px;
+}
+
+#nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+#nav ul #logo {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+
+
+.user-img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+
+}
+
+.menu-wrap {
+    position: absolute;
+    top: 7%;
+    right: 0px;
+    width: 320px;
+    max-height: 0px;
+    overflow: hidden;
+    z-index: 1111;
+}
+
+.menu-wrap.open-menu {
+    max-height: 400px;
+}
+
+.sub-menu {
+    background: rgb(227, 223, 214);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.user-imgs {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+
+}
+
+.user-2 {
+    display: flex;
+    align-items: center;
+}
+
+.user-2 h3 {
+    font-weight: 500;
+    margin-left: 15px;
+
+}
+
+.user-icone {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #525252;
+    margin: 12px 0;
+
+}
+
+.user-icone p {
+    width: 70%;
+    margin-bottom: 0;
+
+}
+
+.user-icone i {
+    margin-right: 15px;
+
+}
+
+.user-icone span {
+    font-size: 22px;
+}
+
+.nav-item a i {
+    font-size: 30px;
+    color: black;
+}
+
+.user {
+    background-color: green;
+}
+
+.user ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/*PROFIL*/
+#img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+   
+}
+#img img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    border-radius: 50%;
+    object-fit: cover; 
+    
+   
+}
+.partieprofil1{
+   align-items: center;
+  padding: 10px;
+position: relative;}
+#iconecrayon{
+    position: absolute;
+    right: 10px;
+   color: #ff9900;
+   
+}
+#tel,
+#what {
+    font-size: 40px;
+    padding-left: 40px;
+}
+
+#tel {
+    color: black;
+}
+
+#what {
+    color: green;
+}
+.partieprofil2{
+position: relative;
+   padding: 10px;}
+
+   /*EVALUATION ET TEMOIGNAGE*/
+   .etoile i {
+    color: yellow;
+}
+
+/*PARTIE CRAYON*/
+
+
+.choisirunephoto {
+    position: absolute;
+width: 150px;
+    left: 20px;
+    opacity: 0;
+
+}
+/*PARTIE CREATION*/
+#publication{
+    position: absolute;
+    top: 5px;
+    right:5px;
+text-align: center;
+    height: 35px;
+  padding-top: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}

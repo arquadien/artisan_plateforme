@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="asset/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="asset/CSS/styleprofilcombine_.css">
+    <title>Modification Profil de l'artisans</title>
+</head>
+
+<body>
+
+ 
+<div class="container light-style flex-grow-1 container-p-y">
+    <h4 class="mt-2">Mon compte</h4>
+
+    <div class="card overflow-hidden mt-3">
+        <div class="row g-0 row-bordered border-light">
+            <div class="col-md-3 pt-0  d-flex flex-row flex-wrap">
+                <div class="list-group list-group-flush account-settings-links" role="tablist">
+                    <a class="list-group-item list-group-item-action active" data-bs-toggle="list"
+                        href="#information">Information</a>
+                    <a class="list-group-item list-group-item-action" data-bs-toggle="list"
+                        href="#password">Modifier mot de passe</a>
+                </div>
+            </div>
+            <div class="col-md-9">
+                <div class="tab-content">
+                    <div class="tab-pane fade active show p-2" id="information">
+                        <form class="information" action="">
+                            <div class="row">
+                                <div class="card-body media align-items-center d-flex">
+                                    <img src="asset/image/images (1).jfif" alt="" class="d-block w-80 p-2">
+                                    <label class="btn btn-primary "  for="">
+                                    choisir une photo
+                                    <input class="choisirunephoto" type="file" accept="image/*"></label>
+                                    <input class="btn btn-primary ms-3" type="reset" value="supprimer">
+                                </div>
+                                <div class="col-md-6 mt-2">
+                                    <label class="form-label" for="">Nom</label>
+                                    <input type="text">
+                                </div>
+
+                                <div class="col-md-6 mt-2">
+                                    <label class="form-label" for="">Prénoms</label>
+                                    <input type="text">
+                                </div>
+                                <div class="col-md-6 mt-2">
+                                    <label class="form-label" for="">Numéro de téléphone</label>
+                                    <input type="text">
+                                </div>
+                                <div class="col-md-6 mt-2">
+                                    <label class="form-label" for="">Numéro whatsapp</label>
+                                    <input type="text">
+                                </div>
+                                <div class="col-md-6 mt-2">
+                                    <label class="form-label" for="">Ville</label>
+                                    <input type="text">
+                                </div>
+
+                                <div class="col-md-6 mt-2">
+                                    <label class="form-label" for="">Commune</label>
+                                    <input type="text">
+                                </div>
+                                <div class="col-md-6 mt-2">
+                                    <label class="form-label" for="">Quartier</label>
+                                    <input type="text">
+                                </div>                                    
+                            </div>
+                        </form>
+                    </div>
+       
+                    <div class="tab-pane fade p-2" id="password">
+                        <div class="form-group">
+                            <label class="form-label">Mot de passe actuel</label>
+                            <input type="password" >
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Nouveau mot de passe</label>
+                            <input type="password" >
+                        </div>
+                        <div class="form-group">
+                            <label class="form-label">Répété le nouveau mot de passe</label>
+                            <input type="password" >
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="btprofil mt-3">
+            <button type="button" class="btn btn-primary">Sauvegarder les modifications</button>&nbsp;
+            <button type="button" class="btn btn-default">Annuler</button>
+        </div>
+
+
+    <script src="asset/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
